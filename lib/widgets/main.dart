@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_marti/pages/eleccion.dart';
 import 'package:flutter_marti/pages/login_page.dart';
 
 void main() {
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: LoginPage.id,
       routes: {
         LoginPage.id: (_) => LoginPage(),
+        eleccion.id: (context) => eleccion(),
       },
     );
   }
